@@ -1,0 +1,1924 @@
+{
+  "wheat": [
+    {
+      "month": "Jan",
+      "price": 2106,
+      "demand": 74
+    },
+    {
+      "month": "Feb",
+      "price": 1953,
+      "demand": 84
+    },
+    {
+      "month": "Mar",
+      "price": 2033,
+      "demand": 67
+    },
+    {
+      "month": "Apr",
+      "price": 2051,
+      "demand": 77
+    },
+    {
+      "month": "May",
+      "price": 2293,
+      "demand": 93
+    },
+    {
+      "month": "Jun",
+      "price": 2560,
+      "demand": 64
+    },
+    {
+      "month": "Jul",
+      "price": 2734,
+      "demand": 76
+    },
+    {
+      "month": "Aug",
+      "price": 2849,
+      "demand": 73
+    },
+    {
+      "month": "Sep",
+      "price": 2650,
+      "demand": 80
+    },
+    {
+      "month": "Oct",
+      "price": 2504,
+      "demand": 92
+    },
+    {
+      "month": "Nov",
+      "price": 2318,
+      "demand": 78
+    },
+    {
+      "month": "Dec",
+      "price": 2316,
+      "demand": 75
+    }
+  ],
+  "rice": [
+    {
+      "month": "Jan",
+      "price": 2617,
+      "demand": 67
+    },
+    {
+      "month": "Feb",
+      "price": 2540,
+      "demand": 62
+    },
+    {
+      "month": "Mar",
+      "price": 2450,
+      "demand": 78
+    },
+    {
+      "month": "Apr",
+      "price": 2722,
+      "demand": 80
+    },
+    {
+      "month": "May",
+      "price": 2943,
+      "demand": 74
+    },
+    {
+      "month": "Jun",
+      "price": 3226,
+      "demand": 98
+    },
+    {
+      "month": "Jul",
+      "price": 3439,
+      "demand": 86
+    },
+    {
+      "month": "Aug",
+      "price": 3664,
+      "demand": 91
+    },
+    {
+      "month": "Sep",
+      "price": 3403,
+      "demand": 82
+    },
+    {
+      "month": "Oct",
+      "price": 3265,
+      "demand": 74
+    },
+    {
+      "month": "Nov",
+      "price": 3108,
+      "demand": 95
+    },
+    {
+      "month": "Dec",
+      "price": 2981,
+      "demand": 68
+    }
+  ],
+  "maize": [
+    {
+      "month": "Jan",
+      "price": 1795,
+      "demand": 85
+    },
+    {
+      "month": "Feb",
+      "price": 1741,
+      "demand": 67
+    },
+    {
+      "month": "Mar",
+      "price": 1727,
+      "demand": 63
+    },
+    {
+      "month": "Apr",
+      "price": 1854,
+      "demand": 68
+    },
+    {
+      "month": "May",
+      "price": 1962,
+      "demand": 86
+    },
+    {
+      "month": "Jun",
+      "price": 2215,
+      "demand": 80
+    },
+    {
+      "month": "Jul",
+      "price": 2280,
+      "demand": 91
+    },
+    {
+      "month": "Aug",
+      "price": 2415,
+      "demand": 82
+    },
+    {
+      "month": "Sep",
+      "price": 2272,
+      "demand": 95
+    },
+    {
+      "month": "Oct",
+      "price": 2209,
+      "demand": 62
+    },
+    {
+      "month": "Nov",
+      "price": 2023,
+      "demand": 80
+    },
+    {
+      "month": "Dec",
+      "price": 1945,
+      "demand": 63
+    }
+  ],
+  "jowar": [
+    {
+      "month": "Jan",
+      "price": 2348,
+      "demand": 67
+    },
+    {
+      "month": "Feb",
+      "price": 2196,
+      "demand": 62
+    },
+    {
+      "month": "Mar",
+      "price": 2214,
+      "demand": 79
+    },
+    {
+      "month": "Apr",
+      "price": 2211,
+      "demand": 76
+    },
+    {
+      "month": "May",
+      "price": 2565,
+      "demand": 69
+    },
+    {
+      "month": "Jun",
+      "price": 2723,
+      "demand": 75
+    },
+    {
+      "month": "Jul",
+      "price": 2913,
+      "demand": 100
+    },
+    {
+      "month": "Aug",
+      "price": 3083,
+      "demand": 75
+    },
+    {
+      "month": "Sep",
+      "price": 2940,
+      "demand": 68
+    },
+    {
+      "month": "Oct",
+      "price": 2695,
+      "demand": 63
+    },
+    {
+      "month": "Nov",
+      "price": 2645,
+      "demand": 77
+    },
+    {
+      "month": "Dec",
+      "price": 2571,
+      "demand": 90
+    }
+  ],
+  "bajra": [
+    {
+      "month": "Jan",
+      "price": 2010,
+      "demand": 71
+    },
+    {
+      "month": "Feb",
+      "price": 1963,
+      "demand": 73
+    },
+    {
+      "month": "Mar",
+      "price": 1871,
+      "demand": 90
+    },
+    {
+      "month": "Apr",
+      "price": 1960,
+      "demand": 60
+    },
+    {
+      "month": "May",
+      "price": 2181,
+      "demand": 64
+    },
+    {
+      "month": "Jun",
+      "price": 2412,
+      "demand": 98
+    },
+    {
+      "month": "Jul",
+      "price": 2533,
+      "demand": 78
+    },
+    {
+      "month": "Aug",
+      "price": 2691,
+      "demand": 79
+    },
+    {
+      "month": "Sep",
+      "price": 2580,
+      "demand": 86
+    },
+    {
+      "month": "Oct",
+      "price": 2370,
+      "demand": 81
+    },
+    {
+      "month": "Nov",
+      "price": 2227,
+      "demand": 68
+    },
+    {
+      "month": "Dec",
+      "price": 2258,
+      "demand": 77
+    }
+  ],
+  "tomato": [
+    {
+      "month": "Jan",
+      "price": 1439,
+      "demand": 83
+    },
+    {
+      "month": "Feb",
+      "price": 1328,
+      "demand": 66
+    },
+    {
+      "month": "Mar",
+      "price": 1365,
+      "demand": 68
+    },
+    {
+      "month": "Apr",
+      "price": 1435,
+      "demand": 77
+    },
+    {
+      "month": "May",
+      "price": 1546,
+      "demand": 74
+    },
+    {
+      "month": "Jun",
+      "price": 1679,
+      "demand": 88
+    },
+    {
+      "month": "Jul",
+      "price": 1851,
+      "demand": 83
+    },
+    {
+      "month": "Aug",
+      "price": 1910,
+      "demand": 88
+    },
+    {
+      "month": "Sep",
+      "price": 1819,
+      "demand": 69
+    },
+    {
+      "month": "Oct",
+      "price": 1752,
+      "demand": 76
+    },
+    {
+      "month": "Nov",
+      "price": 1635,
+      "demand": 86
+    },
+    {
+      "month": "Dec",
+      "price": 1594,
+      "demand": 72
+    }
+  ],
+  "onion": [
+    {
+      "month": "Jan",
+      "price": 1694,
+      "demand": 63
+    },
+    {
+      "month": "Feb",
+      "price": 1626,
+      "demand": 89
+    },
+    {
+      "month": "Mar",
+      "price": 1661,
+      "demand": 64
+    },
+    {
+      "month": "Apr",
+      "price": 1750,
+      "demand": 90
+    },
+    {
+      "month": "May",
+      "price": 1856,
+      "demand": 85
+    },
+    {
+      "month": "Jun",
+      "price": 2006,
+      "demand": 93
+    },
+    {
+      "month": "Jul",
+      "price": 2170,
+      "demand": 71
+    },
+    {
+      "month": "Aug",
+      "price": 2278,
+      "demand": 99
+    },
+    {
+      "month": "Sep",
+      "price": 2160,
+      "demand": 100
+    },
+    {
+      "month": "Oct",
+      "price": 2050,
+      "demand": 71
+    },
+    {
+      "month": "Nov",
+      "price": 1996,
+      "demand": 91
+    },
+    {
+      "month": "Dec",
+      "price": 1855,
+      "demand": 98
+    }
+  ],
+  "potato": [
+    {
+      "month": "Jan",
+      "price": 1174,
+      "demand": 85
+    },
+    {
+      "month": "Feb",
+      "price": 1102,
+      "demand": 86
+    },
+    {
+      "month": "Mar",
+      "price": 1089,
+      "demand": 99
+    },
+    {
+      "month": "Apr",
+      "price": 1108,
+      "demand": 88
+    },
+    {
+      "month": "May",
+      "price": 1246,
+      "demand": 74
+    },
+    {
+      "month": "Jun",
+      "price": 1340,
+      "demand": 99
+    },
+    {
+      "month": "Jul",
+      "price": 1444,
+      "demand": 71
+    },
+    {
+      "month": "Aug",
+      "price": 1563,
+      "demand": 75
+    },
+    {
+      "month": "Sep",
+      "price": 1420,
+      "demand": 93
+    },
+    {
+      "month": "Oct",
+      "price": 1408,
+      "demand": 65
+    },
+    {
+      "month": "Nov",
+      "price": 1275,
+      "demand": 62
+    },
+    {
+      "month": "Dec",
+      "price": 1243,
+      "demand": 97
+    }
+  ],
+  "garlic": [
+    {
+      "month": "Jan",
+      "price": 5171,
+      "demand": 96
+    },
+    {
+      "month": "Feb",
+      "price": 5111,
+      "demand": 80
+    },
+    {
+      "month": "Mar",
+      "price": 4811,
+      "demand": 75
+    },
+    {
+      "month": "Apr",
+      "price": 5079,
+      "demand": 92
+    },
+    {
+      "month": "May",
+      "price": 5741,
+      "demand": 78
+    },
+    {
+      "month": "Jun",
+      "price": 6208,
+      "demand": 74
+    },
+    {
+      "month": "Jul",
+      "price": 6643,
+      "demand": 85
+    },
+    {
+      "month": "Aug",
+      "price": 6959,
+      "demand": 64
+    },
+    {
+      "month": "Sep",
+      "price": 6549,
+      "demand": 81
+    },
+    {
+      "month": "Oct",
+      "price": 6415,
+      "demand": 98
+    },
+    {
+      "month": "Nov",
+      "price": 5805,
+      "demand": 100
+    },
+    {
+      "month": "Dec",
+      "price": 5639,
+      "demand": 73
+    }
+  ],
+  "ginger": [
+    {
+      "month": "Jan",
+      "price": 6201,
+      "demand": 60
+    },
+    {
+      "month": "Feb",
+      "price": 5941,
+      "demand": 85
+    },
+    {
+      "month": "Mar",
+      "price": 5807,
+      "demand": 83
+    },
+    {
+      "month": "Apr",
+      "price": 6160,
+      "demand": 61
+    },
+    {
+      "month": "May",
+      "price": 6918,
+      "demand": 70
+    },
+    {
+      "month": "Jun",
+      "price": 7576,
+      "demand": 66
+    },
+    {
+      "month": "Jul",
+      "price": 7807,
+      "demand": 83
+    },
+    {
+      "month": "Aug",
+      "price": 8406,
+      "demand": 97
+    },
+    {
+      "month": "Sep",
+      "price": 7650,
+      "demand": 93
+    },
+    {
+      "month": "Oct",
+      "price": 7472,
+      "demand": 86
+    },
+    {
+      "month": "Nov",
+      "price": 6985,
+      "demand": 75
+    },
+    {
+      "month": "Dec",
+      "price": 6717,
+      "demand": 70
+    }
+  ],
+  "cabbage": [
+    {
+      "month": "Jan",
+      "price": 964,
+      "demand": 89
+    },
+    {
+      "month": "Feb",
+      "price": 933,
+      "demand": 64
+    },
+    {
+      "month": "Mar",
+      "price": 886,
+      "demand": 62
+    },
+    {
+      "month": "Apr",
+      "price": 945,
+      "demand": 68
+    },
+    {
+      "month": "May",
+      "price": 1064,
+      "demand": 68
+    },
+    {
+      "month": "Jun",
+      "price": 1151,
+      "demand": 64
+    },
+    {
+      "month": "Jul",
+      "price": 1201,
+      "demand": 73
+    },
+    {
+      "month": "Aug",
+      "price": 1289,
+      "demand": 84
+    },
+    {
+      "month": "Sep",
+      "price": 1178,
+      "demand": 82
+    },
+    {
+      "month": "Oct",
+      "price": 1147,
+      "demand": 90
+    },
+    {
+      "month": "Nov",
+      "price": 1082,
+      "demand": 82
+    },
+    {
+      "month": "Dec",
+      "price": 1033,
+      "demand": 99
+    }
+  ],
+  "cauliflower": [
+    {
+      "month": "Jan",
+      "price": 1117,
+      "demand": 81
+    },
+    {
+      "month": "Feb",
+      "price": 1108,
+      "demand": 69
+    },
+    {
+      "month": "Mar",
+      "price": 1102,
+      "demand": 61
+    },
+    {
+      "month": "Apr",
+      "price": 1105,
+      "demand": 92
+    },
+    {
+      "month": "May",
+      "price": 1215,
+      "demand": 78
+    },
+    {
+      "month": "Jun",
+      "price": 1361,
+      "demand": 68
+    },
+    {
+      "month": "Jul",
+      "price": 1470,
+      "demand": 67
+    },
+    {
+      "month": "Aug",
+      "price": 1546,
+      "demand": 100
+    },
+    {
+      "month": "Sep",
+      "price": 1435,
+      "demand": 80
+    },
+    {
+      "month": "Oct",
+      "price": 1355,
+      "demand": 86
+    },
+    {
+      "month": "Nov",
+      "price": 1325,
+      "demand": 90
+    },
+    {
+      "month": "Dec",
+      "price": 1284,
+      "demand": 84
+    }
+  ],
+  "brinjal": [
+    {
+      "month": "Jan",
+      "price": 1318,
+      "demand": 96
+    },
+    {
+      "month": "Feb",
+      "price": 1289,
+      "demand": 81
+    },
+    {
+      "month": "Mar",
+      "price": 1265,
+      "demand": 71
+    },
+    {
+      "month": "Apr",
+      "price": 1342,
+      "demand": 92
+    },
+    {
+      "month": "May",
+      "price": 1484,
+      "demand": 89
+    },
+    {
+      "month": "Jun",
+      "price": 1599,
+      "demand": 90
+    },
+    {
+      "month": "Jul",
+      "price": 1664,
+      "demand": 98
+    },
+    {
+      "month": "Aug",
+      "price": 1816,
+      "demand": 69
+    },
+    {
+      "month": "Sep",
+      "price": 1669,
+      "demand": 77
+    },
+    {
+      "month": "Oct",
+      "price": 1648,
+      "demand": 75
+    },
+    {
+      "month": "Nov",
+      "price": 1542,
+      "demand": 91
+    },
+    {
+      "month": "Dec",
+      "price": 1471,
+      "demand": 78
+    }
+  ],
+  "carrot": [
+    {
+      "month": "Jan",
+      "price": 1525,
+      "demand": 91
+    },
+    {
+      "month": "Feb",
+      "price": 1442,
+      "demand": 89
+    },
+    {
+      "month": "Mar",
+      "price": 1407,
+      "demand": 64
+    },
+    {
+      "month": "Apr",
+      "price": 1505,
+      "demand": 60
+    },
+    {
+      "month": "May",
+      "price": 1707,
+      "demand": 97
+    },
+    {
+      "month": "Jun",
+      "price": 1783,
+      "demand": 99
+    },
+    {
+      "month": "Jul",
+      "price": 1935,
+      "demand": 99
+    },
+    {
+      "month": "Aug",
+      "price": 2054,
+      "demand": 100
+    },
+    {
+      "month": "Sep",
+      "price": 1971,
+      "demand": 74
+    },
+    {
+      "month": "Oct",
+      "price": 1834,
+      "demand": 78
+    },
+    {
+      "month": "Nov",
+      "price": 1736,
+      "demand": 92
+    },
+    {
+      "month": "Dec",
+      "price": 1683,
+      "demand": 97
+    }
+  ],
+  "cotton": [
+    {
+      "month": "Jan",
+      "price": 5724,
+      "demand": 71
+    },
+    {
+      "month": "Feb",
+      "price": 5388,
+      "demand": 60
+    },
+    {
+      "month": "Mar",
+      "price": 5525,
+      "demand": 69
+    },
+    {
+      "month": "Apr",
+      "price": 5605,
+      "demand": 79
+    },
+    {
+      "month": "May",
+      "price": 6253,
+      "demand": 84
+    },
+    {
+      "month": "Jun",
+      "price": 6926,
+      "demand": 69
+    },
+    {
+      "month": "Jul",
+      "price": 7354,
+      "demand": 76
+    },
+    {
+      "month": "Aug",
+      "price": 7578,
+      "demand": 95
+    },
+    {
+      "month": "Sep",
+      "price": 7244,
+      "demand": 62
+    },
+    {
+      "month": "Oct",
+      "price": 6759,
+      "demand": 66
+    },
+    {
+      "month": "Nov",
+      "price": 6480,
+      "demand": 81
+    },
+    {
+      "month": "Dec",
+      "price": 6323,
+      "demand": 78
+    }
+  ],
+  "sugarcane": [
+    {
+      "month": "Jan",
+      "price": 329,
+      "demand": 83
+    },
+    {
+      "month": "Feb",
+      "price": 326,
+      "demand": 83
+    },
+    {
+      "month": "Mar",
+      "price": 311,
+      "demand": 98
+    },
+    {
+      "month": "Apr",
+      "price": 322,
+      "demand": 91
+    },
+    {
+      "month": "May",
+      "price": 368,
+      "demand": 63
+    },
+    {
+      "month": "Jun",
+      "price": 393,
+      "demand": 62
+    },
+    {
+      "month": "Jul",
+      "price": 438,
+      "demand": 63
+    },
+    {
+      "month": "Aug",
+      "price": 462,
+      "demand": 94
+    },
+    {
+      "month": "Sep",
+      "price": 413,
+      "demand": 88
+    },
+    {
+      "month": "Oct",
+      "price": 397,
+      "demand": 93
+    },
+    {
+      "month": "Nov",
+      "price": 369,
+      "demand": 70
+    },
+    {
+      "month": "Dec",
+      "price": 366,
+      "demand": 87
+    }
+  ],
+  "soybean": [
+    {
+      "month": "Jan",
+      "price": 4494,
+      "demand": 61
+    },
+    {
+      "month": "Feb",
+      "price": 4288,
+      "demand": 73
+    },
+    {
+      "month": "Mar",
+      "price": 4431,
+      "demand": 97
+    },
+    {
+      "month": "Apr",
+      "price": 4675,
+      "demand": 62
+    },
+    {
+      "month": "May",
+      "price": 4953,
+      "demand": 91
+    },
+    {
+      "month": "Jun",
+      "price": 5590,
+      "demand": 97
+    },
+    {
+      "month": "Jul",
+      "price": 6014,
+      "demand": 64
+    },
+    {
+      "month": "Aug",
+      "price": 6110,
+      "demand": 73
+    },
+    {
+      "month": "Sep",
+      "price": 5879,
+      "demand": 63
+    },
+    {
+      "month": "Oct",
+      "price": 5332,
+      "demand": 64
+    },
+    {
+      "month": "Nov",
+      "price": 5140,
+      "demand": 69
+    },
+    {
+      "month": "Dec",
+      "price": 5042,
+      "demand": 61
+    }
+  ],
+  "groundnut": [
+    {
+      "month": "Jan",
+      "price": 5556,
+      "demand": 82
+    },
+    {
+      "month": "Feb",
+      "price": 5230,
+      "demand": 93
+    },
+    {
+      "month": "Mar",
+      "price": 5241,
+      "demand": 89
+    },
+    {
+      "month": "Apr",
+      "price": 5387,
+      "demand": 80
+    },
+    {
+      "month": "May",
+      "price": 6151,
+      "demand": 84
+    },
+    {
+      "month": "Jun",
+      "price": 6720,
+      "demand": 65
+    },
+    {
+      "month": "Jul",
+      "price": 6903,
+      "demand": 100
+    },
+    {
+      "month": "Aug",
+      "price": 7248,
+      "demand": 75
+    },
+    {
+      "month": "Sep",
+      "price": 6942,
+      "demand": 76
+    },
+    {
+      "month": "Oct",
+      "price": 6671,
+      "demand": 82
+    },
+    {
+      "month": "Nov",
+      "price": 6240,
+      "demand": 64
+    },
+    {
+      "month": "Dec",
+      "price": 6212,
+      "demand": 60
+    }
+  ],
+  "mustard": [
+    {
+      "month": "Jan",
+      "price": 5143,
+      "demand": 67
+    },
+    {
+      "month": "Feb",
+      "price": 4936,
+      "demand": 72
+    },
+    {
+      "month": "Mar",
+      "price": 4751,
+      "demand": 87
+    },
+    {
+      "month": "Apr",
+      "price": 5031,
+      "demand": 79
+    },
+    {
+      "month": "May",
+      "price": 5567,
+      "demand": 96
+    },
+    {
+      "month": "Jun",
+      "price": 6269,
+      "demand": 72
+    },
+    {
+      "month": "Jul",
+      "price": 6420,
+      "demand": 82
+    },
+    {
+      "month": "Aug",
+      "price": 7000,
+      "demand": 62
+    },
+    {
+      "month": "Sep",
+      "price": 6366,
+      "demand": 73
+    },
+    {
+      "month": "Oct",
+      "price": 6054,
+      "demand": 100
+    },
+    {
+      "month": "Nov",
+      "price": 5733,
+      "demand": 62
+    },
+    {
+      "month": "Dec",
+      "price": 5538,
+      "demand": 76
+    }
+  ],
+  "turmeric": [
+    {
+      "month": "Jan",
+      "price": 6631,
+      "demand": 63
+    },
+    {
+      "month": "Feb",
+      "price": 6199,
+      "demand": 69
+    },
+    {
+      "month": "Mar",
+      "price": 6328,
+      "demand": 68
+    },
+    {
+      "month": "Apr",
+      "price": 6601,
+      "demand": 99
+    },
+    {
+      "month": "May",
+      "price": 7136,
+      "demand": 70
+    },
+    {
+      "month": "Jun",
+      "price": 7707,
+      "demand": 100
+    },
+    {
+      "month": "Jul",
+      "price": 8444,
+      "demand": 62
+    },
+    {
+      "month": "Aug",
+      "price": 9238,
+      "demand": 95
+    },
+    {
+      "month": "Sep",
+      "price": 8676,
+      "demand": 64
+    },
+    {
+      "month": "Oct",
+      "price": 7852,
+      "demand": 87
+    },
+    {
+      "month": "Nov",
+      "price": 7745,
+      "demand": 63
+    },
+    {
+      "month": "Dec",
+      "price": 7200,
+      "demand": 86
+    }
+  ],
+  "chilli": [
+    {
+      "month": "Jan",
+      "price": 11663,
+      "demand": 68
+    },
+    {
+      "month": "Feb",
+      "price": 11210,
+      "demand": 67
+    },
+    {
+      "month": "Mar",
+      "price": 10678,
+      "demand": 67
+    },
+    {
+      "month": "Apr",
+      "price": 11133,
+      "demand": 93
+    },
+    {
+      "month": "May",
+      "price": 12707,
+      "demand": 71
+    },
+    {
+      "month": "Jun",
+      "price": 13819,
+      "demand": 81
+    },
+    {
+      "month": "Jul",
+      "price": 14947,
+      "demand": 94
+    },
+    {
+      "month": "Aug",
+      "price": 15498,
+      "demand": 79
+    },
+    {
+      "month": "Sep",
+      "price": 14822,
+      "demand": 86
+    },
+    {
+      "month": "Oct",
+      "price": 14071,
+      "demand": 97
+    },
+    {
+      "month": "Nov",
+      "price": 12978,
+      "demand": 88
+    },
+    {
+      "month": "Dec",
+      "price": 12497,
+      "demand": 81
+    }
+  ],
+  "pepper": [
+    {
+      "month": "Jan",
+      "price": 37831,
+      "demand": 62
+    },
+    {
+      "month": "Feb",
+      "price": 36425,
+      "demand": 61
+    },
+    {
+      "month": "Mar",
+      "price": 36786,
+      "demand": 91
+    },
+    {
+      "month": "Apr",
+      "price": 38146,
+      "demand": 80
+    },
+    {
+      "month": "May",
+      "price": 41436,
+      "demand": 98
+    },
+    {
+      "month": "Jun",
+      "price": 44764,
+      "demand": 81
+    },
+    {
+      "month": "Jul",
+      "price": 49385,
+      "demand": 64
+    },
+    {
+      "month": "Aug",
+      "price": 50035,
+      "demand": 70
+    },
+    {
+      "month": "Sep",
+      "price": 47216,
+      "demand": 100
+    },
+    {
+      "month": "Oct",
+      "price": 46942,
+      "demand": 77
+    },
+    {
+      "month": "Nov",
+      "price": 43611,
+      "demand": 61
+    },
+    {
+      "month": "Dec",
+      "price": 41086,
+      "demand": 75
+    }
+  ],
+  "apple": [
+    {
+      "month": "Jan",
+      "price": 7495,
+      "demand": 89
+    },
+    {
+      "month": "Feb",
+      "price": 7119,
+      "demand": 91
+    },
+    {
+      "month": "Mar",
+      "price": 7316,
+      "demand": 87
+    },
+    {
+      "month": "Apr",
+      "price": 7524,
+      "demand": 91
+    },
+    {
+      "month": "May",
+      "price": 8179,
+      "demand": 85
+    },
+    {
+      "month": "Jun",
+      "price": 9338,
+      "demand": 74
+    },
+    {
+      "month": "Jul",
+      "price": 9639,
+      "demand": 95
+    },
+    {
+      "month": "Aug",
+      "price": 10497,
+      "demand": 92
+    },
+    {
+      "month": "Sep",
+      "price": 9884,
+      "demand": 74
+    },
+    {
+      "month": "Oct",
+      "price": 9263,
+      "demand": 70
+    },
+    {
+      "month": "Nov",
+      "price": 8708,
+      "demand": 93
+    },
+    {
+      "month": "Dec",
+      "price": 8506,
+      "demand": 68
+    }
+  ],
+  "banana": [
+    {
+      "month": "Jan",
+      "price": 1437,
+      "demand": 92
+    },
+    {
+      "month": "Feb",
+      "price": 1337,
+      "demand": 61
+    },
+    {
+      "month": "Mar",
+      "price": 1353,
+      "demand": 64
+    },
+    {
+      "month": "Apr",
+      "price": 1447,
+      "demand": 89
+    },
+    {
+      "month": "May",
+      "price": 1582,
+      "demand": 74
+    },
+    {
+      "month": "Jun",
+      "price": 1705,
+      "demand": 99
+    },
+    {
+      "month": "Jul",
+      "price": 1822,
+      "demand": 78
+    },
+    {
+      "month": "Aug",
+      "price": 1940,
+      "demand": 96
+    },
+    {
+      "month": "Sep",
+      "price": 1780,
+      "demand": 78
+    },
+    {
+      "month": "Oct",
+      "price": 1765,
+      "demand": 93
+    },
+    {
+      "month": "Nov",
+      "price": 1579,
+      "demand": 91
+    },
+    {
+      "month": "Dec",
+      "price": 1608,
+      "demand": 68
+    }
+  ],
+  "mango": [
+    {
+      "month": "Jan",
+      "price": 4348,
+      "demand": 86
+    },
+    {
+      "month": "Feb",
+      "price": 4174,
+      "demand": 88
+    },
+    {
+      "month": "Mar",
+      "price": 4127,
+      "demand": 66
+    },
+    {
+      "month": "Apr",
+      "price": 4342,
+      "demand": 80
+    },
+    {
+      "month": "May",
+      "price": 4670,
+      "demand": 88
+    },
+    {
+      "month": "Jun",
+      "price": 5020,
+      "demand": 69
+    },
+    {
+      "month": "Jul",
+      "price": 5611,
+      "demand": 90
+    },
+    {
+      "month": "Aug",
+      "price": 5900,
+      "demand": 66
+    },
+    {
+      "month": "Sep",
+      "price": 5528,
+      "demand": 75
+    },
+    {
+      "month": "Oct",
+      "price": 5016,
+      "demand": 89
+    },
+    {
+      "month": "Nov",
+      "price": 4825,
+      "demand": 98
+    },
+    {
+      "month": "Dec",
+      "price": 4717,
+      "demand": 68
+    }
+  ],
+  "grapes": [
+    {
+      "month": "Jan",
+      "price": 4644,
+      "demand": 82
+    },
+    {
+      "month": "Feb",
+      "price": 4540,
+      "demand": 89
+    },
+    {
+      "month": "Mar",
+      "price": 4596,
+      "demand": 78
+    },
+    {
+      "month": "Apr",
+      "price": 4818,
+      "demand": 79
+    },
+    {
+      "month": "May",
+      "price": 5264,
+      "demand": 88
+    },
+    {
+      "month": "Jun",
+      "price": 5524,
+      "demand": 81
+    },
+    {
+      "month": "Jul",
+      "price": 6028,
+      "demand": 68
+    },
+    {
+      "month": "Aug",
+      "price": 6381,
+      "demand": 87
+    },
+    {
+      "month": "Sep",
+      "price": 6068,
+      "demand": 65
+    },
+    {
+      "month": "Oct",
+      "price": 5678,
+      "demand": 66
+    },
+    {
+      "month": "Nov",
+      "price": 5486,
+      "demand": 66
+    },
+    {
+      "month": "Dec",
+      "price": 5321,
+      "demand": 65
+    }
+  ],
+  "tea": [
+    {
+      "month": "Jan",
+      "price": 16961,
+      "demand": 89
+    },
+    {
+      "month": "Feb",
+      "price": 16370,
+      "demand": 78
+    },
+    {
+      "month": "Mar",
+      "price": 16578,
+      "demand": 80
+    },
+    {
+      "month": "Apr",
+      "price": 17348,
+      "demand": 87
+    },
+    {
+      "month": "May",
+      "price": 19109,
+      "demand": 73
+    },
+    {
+      "month": "Jun",
+      "price": 20206,
+      "demand": 73
+    },
+    {
+      "month": "Jul",
+      "price": 21304,
+      "demand": 90
+    },
+    {
+      "month": "Aug",
+      "price": 23649,
+      "demand": 100
+    },
+    {
+      "month": "Sep",
+      "price": 22123,
+      "demand": 85
+    },
+    {
+      "month": "Oct",
+      "price": 20522,
+      "demand": 77
+    },
+    {
+      "month": "Nov",
+      "price": 19247,
+      "demand": 81
+    },
+    {
+      "month": "Dec",
+      "price": 19432,
+      "demand": 81
+    }
+  ],
+  "coffee": [
+    {
+      "month": "Jan",
+      "price": 23902,
+      "demand": 61
+    },
+    {
+      "month": "Feb",
+      "price": 22238,
+      "demand": 77
+    },
+    {
+      "month": "Mar",
+      "price": 22128,
+      "demand": 91
+    },
+    {
+      "month": "Apr",
+      "price": 24244,
+      "demand": 83
+    },
+    {
+      "month": "May",
+      "price": 26324,
+      "demand": 91
+    },
+    {
+      "month": "Jun",
+      "price": 29017,
+      "demand": 80
+    },
+    {
+      "month": "Jul",
+      "price": 29653,
+      "demand": 91
+    },
+    {
+      "month": "Aug",
+      "price": 32145,
+      "demand": 87
+    },
+    {
+      "month": "Sep",
+      "price": 29598,
+      "demand": 77
+    },
+    {
+      "month": "Oct",
+      "price": 29411,
+      "demand": 84
+    },
+    {
+      "month": "Nov",
+      "price": 26218,
+      "demand": 67
+    },
+    {
+      "month": "Dec",
+      "price": 26389,
+      "demand": 85
+    }
+  ],
+  "coconut": [
+    {
+      "month": "Jan",
+      "price": 2927,
+      "demand": 89
+    },
+    {
+      "month": "Feb",
+      "price": 2687,
+      "demand": 71
+    },
+    {
+      "month": "Mar",
+      "price": 2663,
+      "demand": 71
+    },
+    {
+      "month": "Apr",
+      "price": 2788,
+      "demand": 67
+    },
+    {
+      "month": "May",
+      "price": 3203,
+      "demand": 83
+    },
+    {
+      "month": "Jun",
+      "price": 3491,
+      "demand": 73
+    },
+    {
+      "month": "Jul",
+      "price": 3576,
+      "demand": 87
+    },
+    {
+      "month": "Aug",
+      "price": 3790,
+      "demand": 78
+    },
+    {
+      "month": "Sep",
+      "price": 3590,
+      "demand": 88
+    },
+    {
+      "month": "Oct",
+      "price": 3498,
+      "demand": 91
+    },
+    {
+      "month": "Nov",
+      "price": 3256,
+      "demand": 80
+    },
+    {
+      "month": "Dec",
+      "price": 3099,
+      "demand": 71
+    }
+  ],
+  "chickpea": [
+    {
+      "month": "Jan",
+      "price": 4876,
+      "demand": 69
+    },
+    {
+      "month": "Feb",
+      "price": 4634,
+      "demand": 95
+    },
+    {
+      "month": "Mar",
+      "price": 4622,
+      "demand": 96
+    },
+    {
+      "month": "Apr",
+      "price": 4847,
+      "demand": 84
+    },
+    {
+      "month": "May",
+      "price": 5469,
+      "demand": 80
+    },
+    {
+      "month": "Jun",
+      "price": 5928,
+      "demand": 77
+    },
+    {
+      "month": "Jul",
+      "price": 6249,
+      "demand": 68
+    },
+    {
+      "month": "Aug",
+      "price": 6531,
+      "demand": 67
+    },
+    {
+      "month": "Sep",
+      "price": 6416,
+      "demand": 95
+    },
+    {
+      "month": "Oct",
+      "price": 5829,
+      "demand": 67
+    },
+    {
+      "month": "Nov",
+      "price": 5764,
+      "demand": 87
+    },
+    {
+      "month": "Dec",
+      "price": 5323,
+      "demand": 76
+    }
+  ],
+  "lentil": [
+    {
+      "month": "Jan",
+      "price": 5975,
+      "demand": 76
+    },
+    {
+      "month": "Feb",
+      "price": 5606,
+      "demand": 94
+    },
+    {
+      "month": "Mar",
+      "price": 5446,
+      "demand": 81
+    },
+    {
+      "month": "Apr",
+      "price": 5787,
+      "demand": 92
+    },
+    {
+      "month": "May",
+      "price": 6470,
+      "demand": 68
+    },
+    {
+      "month": "Jun",
+      "price": 7165,
+      "demand": 100
+    },
+    {
+      "month": "Jul",
+      "price": 7403,
+      "demand": 92
+    },
+    {
+      "month": "Aug",
+      "price": 8183,
+      "demand": 72
+    },
+    {
+      "month": "Sep",
+      "price": 7350,
+      "demand": 73
+    },
+    {
+      "month": "Oct",
+      "price": 6987,
+      "demand": 63
+    },
+    {
+      "month": "Nov",
+      "price": 6486,
+      "demand": 86
+    },
+    {
+      "month": "Dec",
+      "price": 6435,
+      "demand": 76
+    }
+  ]
+}

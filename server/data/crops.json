@@ -1,0 +1,591 @@
+[
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "emoji": "🌾",
+    "category": "grain",
+    "basePrice": 2200,
+    "idealSoil": [
+      "loamy",
+      "black-soil"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "3-4 months"
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "emoji": "🍚",
+    "category": "grain",
+    "basePrice": 2800,
+    "idealSoil": [
+      "black-soil",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "cold",
+    "shelfLife": "3-4 months"
+  },
+  {
+    "id": "maize",
+    "name": "Maize (Corn)",
+    "emoji": "🌽",
+    "category": "grain",
+    "basePrice": 1900,
+    "idealSoil": [
+      "loamy",
+      "black-soil"
+    ],
+    "seasons": [
+      "rabi",
+      "kharif"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 years"
+  },
+  {
+    "id": "jowar",
+    "name": "Jowar (Sorghum)",
+    "emoji": "🌾",
+    "category": "grain",
+    "basePrice": 2400,
+    "idealSoil": [
+      "sandy-loam",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "150 days",
+    "storageType": "dry",
+    "shelfLife": "6-8 months"
+  },
+  {
+    "id": "bajra",
+    "name": "Bajra (Pearl Millet)",
+    "emoji": "🌾",
+    "category": "grain",
+    "basePrice": 2100,
+    "idealSoil": [
+      "sandy-loam",
+      "clay-loam"
+    ],
+    "seasons": [
+      "rabi",
+      "kharif"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "150 days",
+    "storageType": "cold",
+    "shelfLife": "6-8 months"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "emoji": "🍅",
+    "category": "vegetable",
+    "basePrice": 1500,
+    "idealSoil": [
+      "black-soil",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "zaid",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "90 days",
+    "storageType": "ambient",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "emoji": "🧅",
+    "category": "vegetable",
+    "basePrice": 1800,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "rabi",
+      "zaid"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "dry",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "emoji": "🥔",
+    "category": "vegetable",
+    "basePrice": 1200,
+    "idealSoil": [
+      "black-soil",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "zaid",
+      "kharif"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "cold",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "emoji": "🧄",
+    "category": "vegetable",
+    "basePrice": 5500,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "zaid",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "150 days",
+    "storageType": "cold",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "emoji": "🫚",
+    "category": "spice",
+    "basePrice": 6500,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "rabi",
+      "zaid"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "emoji": "🥬",
+    "category": "vegetable",
+    "basePrice": 1000,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "150 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 years"
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "emoji": "🥦",
+    "category": "vegetable",
+    "basePrice": 1200,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 years"
+  },
+  {
+    "id": "brinjal",
+    "name": "Brinjal (Eggplant)",
+    "emoji": "🍆",
+    "category": "vegetable",
+    "basePrice": 1400,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "6-8 months"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "emoji": "🥕",
+    "category": "vegetable",
+    "basePrice": 1600,
+    "idealSoil": [
+      "black-soil",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "90 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "emoji": "☁️",
+    "category": "cash-crop",
+    "basePrice": 6000,
+    "idealSoil": [
+      "sandy-loam",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "90 days",
+    "storageType": "ambient",
+    "shelfLife": "6-8 months"
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane",
+    "emoji": "🎋",
+    "category": "cash-crop",
+    "basePrice": 350,
+    "idealSoil": [
+      "sandy-loam",
+      "black-soil"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "soybean",
+    "name": "Soybean",
+    "emoji": "🫘",
+    "category": "oilseed",
+    "basePrice": 4800,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "zaid",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "dry",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "groundnut",
+    "name": "Groundnut (Peanut)",
+    "emoji": "🥜",
+    "category": "oilseed",
+    "basePrice": 5800,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "zaid",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "120 days",
+    "storageType": "ambient",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "mustard",
+    "name": "Mustard",
+    "emoji": "🌼",
+    "category": "oilseed",
+    "basePrice": 5400,
+    "idealSoil": [
+      "black-soil",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "90 days",
+    "storageType": "ambient",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "emoji": "🟡",
+    "category": "spice",
+    "basePrice": 7000,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "zaid"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "120 days",
+    "storageType": "ambient",
+    "shelfLife": "6-8 months"
+  },
+  {
+    "id": "chilli",
+    "name": "Chilli",
+    "emoji": "🌶️",
+    "category": "spice",
+    "basePrice": 12000,
+    "idealSoil": [
+      "black-soil",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "150 days",
+    "storageType": "ambient",
+    "shelfLife": "1-2 years"
+  },
+  {
+    "id": "pepper",
+    "name": "Black Pepper",
+    "emoji": "⚫",
+    "category": "spice",
+    "basePrice": 40000,
+    "idealSoil": [
+      "sandy-loam",
+      "black-soil"
+    ],
+    "seasons": [
+      "rabi",
+      "kharif"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "cold",
+    "shelfLife": "3-4 months"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "emoji": "🍎",
+    "category": "fruit",
+    "basePrice": 8000,
+    "idealSoil": [
+      "black-soil",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "zaid"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "emoji": "🍌",
+    "category": "fruit",
+    "basePrice": 1500,
+    "idealSoil": [
+      "clay-loam",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "dry",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "emoji": "🥭",
+    "category": "fruit",
+    "basePrice": 4500,
+    "idealSoil": [
+      "black-soil",
+      "sandy-loam"
+    ],
+    "seasons": [
+      "rabi",
+      "kharif"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "150 days",
+    "storageType": "ambient",
+    "shelfLife": "1-2 years"
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "emoji": "🍇",
+    "category": "fruit",
+    "basePrice": 5000,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "rabi",
+      "zaid"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "ambient",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "emoji": "🍵",
+    "category": "plantation",
+    "basePrice": 18000,
+    "idealSoil": [
+      "black-soil",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "low",
+    "growthDuration": "90 days",
+    "storageType": "ambient",
+    "shelfLife": "3-4 months"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "emoji": "☕",
+    "category": "plantation",
+    "basePrice": 25000,
+    "idealSoil": [
+      "clay-loam",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "120 days",
+    "storageType": "ambient",
+    "shelfLife": "1-2 weeks"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "emoji": "🥥",
+    "category": "plantation",
+    "basePrice": 3000,
+    "idealSoil": [
+      "clay-loam",
+      "black-soil"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "dry",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "chickpea",
+    "name": "Chickpea (Chana)",
+    "emoji": "🧆",
+    "category": "pulse",
+    "basePrice": 5200,
+    "idealSoil": [
+      "clay-loam",
+      "loamy"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "medium",
+    "growthDuration": "90 days",
+    "storageType": "dry",
+    "shelfLife": "2-4 weeks"
+  },
+  {
+    "id": "lentil",
+    "name": "Lentil (Masoor)",
+    "emoji": "🥣",
+    "category": "pulse",
+    "basePrice": 6200,
+    "idealSoil": [
+      "loamy",
+      "clay-loam"
+    ],
+    "seasons": [
+      "kharif",
+      "rabi"
+    ],
+    "waterNeed": "high",
+    "growthDuration": "120 days",
+    "storageType": "dry",
+    "shelfLife": "1-2 weeks"
+  }
+]

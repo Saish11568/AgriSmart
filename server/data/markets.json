@@ -1,0 +1,1821 @@
+[
+  {
+    "id": "hubli",
+    "name": "Hubli APMC Market",
+    "city": "Hubli",
+    "state": "Karnataka",
+    "lat": 15.3533,
+    "lng": 75.1435,
+    "rating": 4.5,
+    "contact": "+91 836 295 1234",
+    "timings": "5:00 AM - 1:00 PM",
+    "crops": {
+      "wheat": 2245,
+      "rice": 2669,
+      "maize": 1927,
+      "jowar": 2227,
+      "bajra": 1958,
+      "tomato": 1235,
+      "potato": 1335,
+      "garlic": 4853,
+      "cauliflower": 1089,
+      "brinjal": 1404,
+      "sugarcane": 382,
+      "soybean": 4160,
+      "mustard": 6022,
+      "turmeric": 5742,
+      "chilli": 12144,
+      "pepper": 32985,
+      "apple": 7647,
+      "mango": 4627,
+      "grapes": 5065,
+      "tea": 20053,
+      "coffee": 29586,
+      "coconut": 2417
+    },
+    "retailers": [
+      {
+        "id": 1,
+        "name": "Kisan Fresh Produce",
+        "buyer": "Ramesh Singh",
+        "phone": "+91 98765 43210",
+        "rating": 4.8,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2135,
+            "minPrice": 1854,
+            "maxPrice": 2225
+          },
+          "rice": {
+            "postedPrice": 2970,
+            "minPrice": 2628,
+            "maxPrice": 3154
+          },
+          "maize": {
+            "postedPrice": 2001,
+            "minPrice": 1734,
+            "maxPrice": 2081
+          },
+          "jowar": {
+            "postedPrice": 2374,
+            "minPrice": 2106,
+            "maxPrice": 2527
+          },
+          "bajra": {
+            "postedPrice": 2011,
+            "minPrice": 1762,
+            "maxPrice": 2115
+          },
+          "tomato": {
+            "postedPrice": 1679,
+            "minPrice": 1509,
+            "maxPrice": 1811
+          },
+          "potato": {
+            "postedPrice": 1329,
+            "minPrice": 1148,
+            "maxPrice": 1377
+          },
+          "garlic": {
+            "postedPrice": 6698,
+            "minPrice": 5760,
+            "maxPrice": 6912
+          },
+          "cauliflower": {
+            "postedPrice": 1125,
+            "minPrice": 980,
+            "maxPrice": 1176
+          },
+          "brinjal": {
+            "postedPrice": 1251,
+            "minPrice": 1078,
+            "maxPrice": 1294
+          },
+          "sugarcane": {
+            "postedPrice": 403,
+            "minPrice": 347,
+            "maxPrice": 416
+          },
+          "soybean": {
+            "postedPrice": 4296,
+            "minPrice": 3744,
+            "maxPrice": 4493
+          },
+          "mustard": {
+            "postedPrice": 4679,
+            "minPrice": 4138,
+            "maxPrice": 4966
+          },
+          "turmeric": {
+            "postedPrice": 7911,
+            "minPrice": 6955,
+            "maxPrice": 8346
+          },
+          "chilli": {
+            "postedPrice": 11175,
+            "minPrice": 9581,
+            "maxPrice": 11498
+          },
+          "pepper": {
+            "postedPrice": 33505,
+            "minPrice": 29364,
+            "maxPrice": 35237
+          },
+          "apple": {
+            "postedPrice": 7867,
+            "minPrice": 6882,
+            "maxPrice": 8259
+          },
+          "mango": {
+            "postedPrice": 3785,
+            "minPrice": 3341,
+            "maxPrice": 4009
+          },
+          "grapes": {
+            "postedPrice": 4303,
+            "minPrice": 3858,
+            "maxPrice": 4630
+          },
+          "tea": {
+            "postedPrice": 20840,
+            "minPrice": 18048,
+            "maxPrice": 21657
+          },
+          "coffee": {
+            "postedPrice": 29920,
+            "minPrice": 26627,
+            "maxPrice": 31953
+          },
+          "coconut": {
+            "postedPrice": 3618,
+            "minPrice": 3219,
+            "maxPrice": 3863
+          },
+          "ginger": {
+            "postedPrice": 6592,
+            "minPrice": 5668,
+            "maxPrice": 6802
+          },
+          "cabbage": {
+            "postedPrice": 970,
+            "minPrice": 870,
+            "maxPrice": 1044
+          },
+          "carrot": {
+            "postedPrice": 1514,
+            "minPrice": 1361,
+            "maxPrice": 1633
+          },
+          "groundnut": {
+            "postedPrice": 6215,
+            "minPrice": 5571,
+            "maxPrice": 6685
+          },
+          "banana": {
+            "postedPrice": 1308,
+            "minPrice": 1149,
+            "maxPrice": 1379
+          },
+          "chickpea": {
+            "postedPrice": 4436,
+            "minPrice": 3917,
+            "maxPrice": 4700
+          },
+          "lentil": {
+            "postedPrice": 6875,
+            "minPrice": 5919,
+            "maxPrice": 7103
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "National Farm Connect",
+        "buyer": "Rajesh Kumar",
+        "phone": "+91 90000 11111",
+        "rating": 4.9,
+        "volume": "Very High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2647,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2800,
+            "minPrice": 2402,
+            "maxPrice": 2883
+          },
+          "maize": {
+            "postedPrice": 1713,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "jowar": {
+            "postedPrice": 2334,
+            "minPrice": 2004,
+            "maxPrice": 2405
+          },
+          "bajra": {
+            "postedPrice": 2030,
+            "minPrice": 1762,
+            "maxPrice": 2115
+          },
+          "tomato": {
+            "postedPrice": 1449,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "potato": {
+            "postedPrice": 1178,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "garlic": {
+            "postedPrice": 5706,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "cauliflower": {
+            "postedPrice": 1260,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "brinjal": {
+            "postedPrice": 1422,
+            "minPrice": 1264,
+            "maxPrice": 1516
+          },
+          "sugarcane": {
+            "postedPrice": 389,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "soybean": {
+            "postedPrice": 4136,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 6295,
+            "minPrice": 5420,
+            "maxPrice": 6504
+          },
+          "turmeric": {
+            "postedPrice": 5961,
+            "minPrice": 5168,
+            "maxPrice": 6201
+          },
+          "chilli": {
+            "postedPrice": 13368,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "pepper": {
+            "postedPrice": 41269,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6850,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "mango": {
+            "postedPrice": 5206,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          },
+          "grapes": {
+            "postedPrice": 5072,
+            "minPrice": 4559,
+            "maxPrice": 5470
+          },
+          "tea": {
+            "postedPrice": 17583,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "coffee": {
+            "postedPrice": 30728,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2631,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "onion": {
+            "postedPrice": 1685,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "ginger": {
+            "postedPrice": 5987,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cabbage": {
+            "postedPrice": 1241,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "banana": {
+            "postedPrice": 1414,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "chickpea": {
+            "postedPrice": 4802,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dharwad",
+    "name": "Dharwad APMC",
+    "city": "Dharwad",
+    "state": "Karnataka",
+    "lat": 15.4542,
+    "lng": 75.0078,
+    "rating": 4.2,
+    "contact": "+91 836 244 5678",
+    "timings": "6:00 AM - 2:00 PM",
+    "crops": {
+      "wheat": 2260,
+      "rice": 2795,
+      "maize": 1974,
+      "bajra": 2015,
+      "onion": 1512,
+      "potato": 1272,
+      "garlic": 6588,
+      "ginger": 7635,
+      "cabbage": 1138,
+      "carrot": 1779,
+      "sugarcane": 332,
+      "soybean": 4590,
+      "mustard": 5899,
+      "turmeric": 6150,
+      "chilli": 13034,
+      "pepper": 45864,
+      "apple": 6433,
+      "grapes": 4328,
+      "coffee": 22991,
+      "coconut": 3052,
+      "lentil": 5842
+    },
+    "retailers": [
+      {
+        "id": 2,
+        "name": "AgriCorp Traders",
+        "buyer": "Sunil Verma",
+        "phone": "+91 99887 76655",
+        "rating": 4.5,
+        "volume": "Medium",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2340,
+            "minPrice": 2034,
+            "maxPrice": 2441
+          },
+          "rice": {
+            "postedPrice": 2897,
+            "minPrice": 2516,
+            "maxPrice": 3019
+          },
+          "maize": {
+            "postedPrice": 1980,
+            "minPrice": 1777,
+            "maxPrice": 2132
+          },
+          "bajra": {
+            "postedPrice": 2048,
+            "minPrice": 1814,
+            "maxPrice": 2176
+          },
+          "onion": {
+            "postedPrice": 1552,
+            "minPrice": 1361,
+            "maxPrice": 1633
+          },
+          "potato": {
+            "postedPrice": 1285,
+            "minPrice": 1145,
+            "maxPrice": 1374
+          },
+          "garlic": {
+            "postedPrice": 6785,
+            "minPrice": 5929,
+            "maxPrice": 7115
+          },
+          "ginger": {
+            "postedPrice": 7676,
+            "minPrice": 6872,
+            "maxPrice": 8246
+          },
+          "cabbage": {
+            "postedPrice": 1181,
+            "minPrice": 1024,
+            "maxPrice": 1229
+          },
+          "carrot": {
+            "postedPrice": 1833,
+            "minPrice": 1601,
+            "maxPrice": 1921
+          },
+          "sugarcane": {
+            "postedPrice": 348,
+            "minPrice": 299,
+            "maxPrice": 359
+          },
+          "soybean": {
+            "postedPrice": 4814,
+            "minPrice": 4131,
+            "maxPrice": 4957
+          },
+          "mustard": {
+            "postedPrice": 5991,
+            "minPrice": 5309,
+            "maxPrice": 6371
+          },
+          "turmeric": {
+            "postedPrice": 6204,
+            "minPrice": 5535,
+            "maxPrice": 6642
+          },
+          "chilli": {
+            "postedPrice": 13602,
+            "minPrice": 11731,
+            "maxPrice": 14077
+          },
+          "pepper": {
+            "postedPrice": 46922,
+            "minPrice": 41278,
+            "maxPrice": 49533
+          },
+          "apple": {
+            "postedPrice": 6506,
+            "minPrice": 5790,
+            "maxPrice": 6948
+          },
+          "grapes": {
+            "postedPrice": 4365,
+            "minPrice": 3895,
+            "maxPrice": 4674
+          },
+          "coffee": {
+            "postedPrice": 23416,
+            "minPrice": 20692,
+            "maxPrice": 24830
+          },
+          "coconut": {
+            "postedPrice": 3055,
+            "minPrice": 2747,
+            "maxPrice": 3296
+          },
+          "lentil": {
+            "postedPrice": 5932,
+            "minPrice": 5258,
+            "maxPrice": 6309
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Metro Fresh B2B",
+        "buyer": "Suresh Patel",
+        "phone": "+91 98989 87878",
+        "rating": 4.3,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2605,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2897,
+            "minPrice": 2516,
+            "maxPrice": 3019
+          },
+          "maize": {
+            "postedPrice": 1725,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "bajra": {
+            "postedPrice": 2071,
+            "minPrice": 1814,
+            "maxPrice": 2176
+          },
+          "onion": {
+            "postedPrice": 1632,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "potato": {
+            "postedPrice": 1171,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "garlic": {
+            "postedPrice": 5729,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "ginger": {
+            "postedPrice": 5933,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cabbage": {
+            "postedPrice": 1226,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "carrot": {
+            "postedPrice": 1811,
+            "minPrice": 1601,
+            "maxPrice": 1921
+          },
+          "sugarcane": {
+            "postedPrice": 398,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "soybean": {
+            "postedPrice": 4101,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 6020,
+            "minPrice": 5309,
+            "maxPrice": 6371
+          },
+          "turmeric": {
+            "postedPrice": 6194,
+            "minPrice": 5535,
+            "maxPrice": 6642
+          },
+          "chilli": {
+            "postedPrice": 13594,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "pepper": {
+            "postedPrice": 40140,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6638,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "grapes": {
+            "postedPrice": 4416,
+            "minPrice": 3895,
+            "maxPrice": 4674
+          },
+          "coffee": {
+            "postedPrice": 31092,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2629,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "lentil": {
+            "postedPrice": 5908,
+            "minPrice": 5258,
+            "maxPrice": 6309
+          },
+          "tomato": {
+            "postedPrice": 1427,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "cauliflower": {
+            "postedPrice": 1264,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "banana": {
+            "postedPrice": 1375,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "mango": {
+            "postedPrice": 5200,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          },
+          "tea": {
+            "postedPrice": 17743,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "chickpea": {
+            "postedPrice": 4879,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "belagavi",
+    "name": "Belagavi Main Market",
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "lat": 15.8497,
+    "lng": 74.4977,
+    "rating": 4.8,
+    "contact": "+91 831 240 9876",
+    "timings": "4:00 AM - 12:00 PM",
+    "crops": {
+      "wheat": 2186,
+      "rice": 2309,
+      "maize": 1978,
+      "jowar": 1948,
+      "bajra": 1731,
+      "tomato": 1654,
+      "onion": 1707,
+      "garlic": 5731,
+      "ginger": 6463,
+      "cauliflower": 1301,
+      "brinjal": 1321,
+      "carrot": 1812,
+      "soybean": 4518,
+      "mustard": 5277,
+      "turmeric": 7588,
+      "pepper": 36916,
+      "apple": 8004,
+      "banana": 1757,
+      "grapes": 4408,
+      "tea": 16819,
+      "coffee": 27772,
+      "coconut": 2489,
+      "chickpea": 5652,
+      "lentil": 5276
+    },
+    "retailers": [
+      {
+        "id": 3,
+        "name": "Green Valley Mart",
+        "buyer": "Anita Devi",
+        "phone": "+91 91234 56789",
+        "rating": 4.2,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2160,
+            "minPrice": 1854,
+            "maxPrice": 2225
+          },
+          "rice": {
+            "postedPrice": 2993,
+            "minPrice": 2628,
+            "maxPrice": 3154
+          },
+          "maize": {
+            "postedPrice": 2000,
+            "minPrice": 1780,
+            "maxPrice": 2136
+          },
+          "jowar": {
+            "postedPrice": 2376,
+            "minPrice": 2106,
+            "maxPrice": 2527
+          },
+          "bajra": {
+            "postedPrice": 1779,
+            "minPrice": 1558,
+            "maxPrice": 1869
+          },
+          "tomato": {
+            "postedPrice": 1754,
+            "minPrice": 1509,
+            "maxPrice": 1811
+          },
+          "onion": {
+            "postedPrice": 1736,
+            "minPrice": 1536,
+            "maxPrice": 1844
+          },
+          "garlic": {
+            "postedPrice": 6649,
+            "minPrice": 5760,
+            "maxPrice": 6912
+          },
+          "ginger": {
+            "postedPrice": 6409,
+            "minPrice": 5668,
+            "maxPrice": 6802
+          },
+          "cauliflower": {
+            "postedPrice": 1338,
+            "minPrice": 1171,
+            "maxPrice": 1405
+          },
+          "brinjal": {
+            "postedPrice": 1250,
+            "minPrice": 1078,
+            "maxPrice": 1294
+          },
+          "carrot": {
+            "postedPrice": 1566,
+            "minPrice": 1361,
+            "maxPrice": 1633
+          },
+          "soybean": {
+            "postedPrice": 4716,
+            "minPrice": 4066,
+            "maxPrice": 4879
+          },
+          "mustard": {
+            "postedPrice": 4704,
+            "minPrice": 4138,
+            "maxPrice": 4966
+          },
+          "turmeric": {
+            "postedPrice": 7956,
+            "minPrice": 6955,
+            "maxPrice": 8346
+          },
+          "pepper": {
+            "postedPrice": 33711,
+            "minPrice": 29364,
+            "maxPrice": 35237
+          },
+          "apple": {
+            "postedPrice": 8398,
+            "minPrice": 7204,
+            "maxPrice": 8644
+          },
+          "banana": {
+            "postedPrice": 1301,
+            "minPrice": 1149,
+            "maxPrice": 1379
+          },
+          "grapes": {
+            "postedPrice": 4423,
+            "minPrice": 3858,
+            "maxPrice": 4630
+          },
+          "tea": {
+            "postedPrice": 17385,
+            "minPrice": 15137,
+            "maxPrice": 18165
+          },
+          "coffee": {
+            "postedPrice": 27899,
+            "minPrice": 24995,
+            "maxPrice": 29994
+          },
+          "coconut": {
+            "postedPrice": 3596,
+            "minPrice": 3219,
+            "maxPrice": 3863
+          },
+          "chickpea": {
+            "postedPrice": 4361,
+            "minPrice": 3917,
+            "maxPrice": 4700
+          },
+          "lentil": {
+            "postedPrice": 6600,
+            "minPrice": 5919,
+            "maxPrice": 7103
+          },
+          "potato": {
+            "postedPrice": 1306,
+            "minPrice": 1148,
+            "maxPrice": 1377
+          },
+          "cabbage": {
+            "postedPrice": 975,
+            "minPrice": 870,
+            "maxPrice": 1044
+          },
+          "sugarcane": {
+            "postedPrice": 398,
+            "minPrice": 347,
+            "maxPrice": 416
+          },
+          "groundnut": {
+            "postedPrice": 6345,
+            "minPrice": 5571,
+            "maxPrice": 6685
+          },
+          "chilli": {
+            "postedPrice": 10908,
+            "minPrice": 9581,
+            "maxPrice": 11498
+          },
+          "mango": {
+            "postedPrice": 3861,
+            "minPrice": 3341,
+            "maxPrice": 4009
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "Reliance Smart Krishi",
+        "buyer": "Amit Shah",
+        "phone": "+91 91111 22222",
+        "rating": 4.7,
+        "volume": "Very High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2594,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2340,
+            "minPrice": 2078,
+            "maxPrice": 2494
+          },
+          "maize": {
+            "postedPrice": 1704,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "jowar": {
+            "postedPrice": 1978,
+            "minPrice": 1753,
+            "maxPrice": 2104
+          },
+          "bajra": {
+            "postedPrice": 1816,
+            "minPrice": 1558,
+            "maxPrice": 1869
+          },
+          "tomato": {
+            "postedPrice": 1416,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "onion": {
+            "postedPrice": 1637,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "garlic": {
+            "postedPrice": 5621,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "ginger": {
+            "postedPrice": 5835,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cauliflower": {
+            "postedPrice": 1252,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "brinjal": {
+            "postedPrice": 1356,
+            "minPrice": 1189,
+            "maxPrice": 1427
+          },
+          "carrot": {
+            "postedPrice": 1839,
+            "minPrice": 1631,
+            "maxPrice": 1957
+          },
+          "soybean": {
+            "postedPrice": 4080,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 5520,
+            "minPrice": 4749,
+            "maxPrice": 5699
+          },
+          "turmeric": {
+            "postedPrice": 7706,
+            "minPrice": 6829,
+            "maxPrice": 8195
+          },
+          "pepper": {
+            "postedPrice": 41238,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6835,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "banana": {
+            "postedPrice": 1410,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "grapes": {
+            "postedPrice": 4546,
+            "minPrice": 3967,
+            "maxPrice": 4761
+          },
+          "tea": {
+            "postedPrice": 17510,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "coffee": {
+            "postedPrice": 30397,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2561,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "chickpea": {
+            "postedPrice": 4886,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          },
+          "lentil": {
+            "postedPrice": 5300,
+            "minPrice": 4748,
+            "maxPrice": 5698
+          },
+          "potato": {
+            "postedPrice": 1182,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "cabbage": {
+            "postedPrice": 1235,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "sugarcane": {
+            "postedPrice": 404,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "chilli": {
+            "postedPrice": 13641,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "mango": {
+            "postedPrice": 5333,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "gadag",
+    "name": "Gadag APMC Yard",
+    "city": "Gadag",
+    "state": "Karnataka",
+    "lat": 15.4299,
+    "lng": 75.6323,
+    "rating": 4,
+    "contact": "+91 837 225 3456",
+    "timings": "7:00 AM - 3:00 PM",
+    "crops": {
+      "wheat": 2060,
+      "rice": 2920,
+      "jowar": 2340,
+      "tomato": 1677,
+      "potato": 1275,
+      "garlic": 6400,
+      "ginger": 6298,
+      "cabbage": 967,
+      "brinjal": 1198,
+      "carrot": 1512,
+      "sugarcane": 385,
+      "groundnut": 6190,
+      "mustard": 4598,
+      "turmeric": 7728,
+      "chilli": 10646,
+      "pepper": 32627,
+      "banana": 1277,
+      "mango": 3712,
+      "grapes": 4287,
+      "coconut": 3577,
+      "chickpea": 4352,
+      "lentil": 6577
+    },
+    "retailers": [
+      {
+        "id": 1,
+        "name": "Kisan Fresh Produce",
+        "buyer": "Ramesh Singh",
+        "phone": "+91 98765 43210",
+        "rating": 4.8,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2135,
+            "minPrice": 1854,
+            "maxPrice": 2225
+          },
+          "rice": {
+            "postedPrice": 2970,
+            "minPrice": 2628,
+            "maxPrice": 3154
+          },
+          "maize": {
+            "postedPrice": 2001,
+            "minPrice": 1734,
+            "maxPrice": 2081
+          },
+          "jowar": {
+            "postedPrice": 2374,
+            "minPrice": 2106,
+            "maxPrice": 2527
+          },
+          "bajra": {
+            "postedPrice": 2011,
+            "minPrice": 1762,
+            "maxPrice": 2115
+          },
+          "tomato": {
+            "postedPrice": 1679,
+            "minPrice": 1509,
+            "maxPrice": 1811
+          },
+          "potato": {
+            "postedPrice": 1329,
+            "minPrice": 1148,
+            "maxPrice": 1377
+          },
+          "garlic": {
+            "postedPrice": 6698,
+            "minPrice": 5760,
+            "maxPrice": 6912
+          },
+          "cauliflower": {
+            "postedPrice": 1125,
+            "minPrice": 980,
+            "maxPrice": 1176
+          },
+          "brinjal": {
+            "postedPrice": 1251,
+            "minPrice": 1078,
+            "maxPrice": 1294
+          },
+          "sugarcane": {
+            "postedPrice": 403,
+            "minPrice": 347,
+            "maxPrice": 416
+          },
+          "soybean": {
+            "postedPrice": 4296,
+            "minPrice": 3744,
+            "maxPrice": 4493
+          },
+          "mustard": {
+            "postedPrice": 4679,
+            "minPrice": 4138,
+            "maxPrice": 4966
+          },
+          "turmeric": {
+            "postedPrice": 7911,
+            "minPrice": 6955,
+            "maxPrice": 8346
+          },
+          "chilli": {
+            "postedPrice": 11175,
+            "minPrice": 9581,
+            "maxPrice": 11498
+          },
+          "pepper": {
+            "postedPrice": 33505,
+            "minPrice": 29364,
+            "maxPrice": 35237
+          },
+          "apple": {
+            "postedPrice": 7867,
+            "minPrice": 6882,
+            "maxPrice": 8259
+          },
+          "mango": {
+            "postedPrice": 3785,
+            "minPrice": 3341,
+            "maxPrice": 4009
+          },
+          "grapes": {
+            "postedPrice": 4303,
+            "minPrice": 3858,
+            "maxPrice": 4630
+          },
+          "tea": {
+            "postedPrice": 20840,
+            "minPrice": 18048,
+            "maxPrice": 21657
+          },
+          "coffee": {
+            "postedPrice": 29920,
+            "minPrice": 26627,
+            "maxPrice": 31953
+          },
+          "coconut": {
+            "postedPrice": 3618,
+            "minPrice": 3219,
+            "maxPrice": 3863
+          },
+          "ginger": {
+            "postedPrice": 6592,
+            "minPrice": 5668,
+            "maxPrice": 6802
+          },
+          "cabbage": {
+            "postedPrice": 970,
+            "minPrice": 870,
+            "maxPrice": 1044
+          },
+          "carrot": {
+            "postedPrice": 1514,
+            "minPrice": 1361,
+            "maxPrice": 1633
+          },
+          "groundnut": {
+            "postedPrice": 6215,
+            "minPrice": 5571,
+            "maxPrice": 6685
+          },
+          "banana": {
+            "postedPrice": 1308,
+            "minPrice": 1149,
+            "maxPrice": 1379
+          },
+          "chickpea": {
+            "postedPrice": 4436,
+            "minPrice": 3917,
+            "maxPrice": 4700
+          },
+          "lentil": {
+            "postedPrice": 6875,
+            "minPrice": 5919,
+            "maxPrice": 7103
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Green Valley Mart",
+        "buyer": "Anita Devi",
+        "phone": "+91 91234 56789",
+        "rating": 4.2,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2160,
+            "minPrice": 1854,
+            "maxPrice": 2225
+          },
+          "rice": {
+            "postedPrice": 2993,
+            "minPrice": 2628,
+            "maxPrice": 3154
+          },
+          "maize": {
+            "postedPrice": 2000,
+            "minPrice": 1780,
+            "maxPrice": 2136
+          },
+          "jowar": {
+            "postedPrice": 2376,
+            "minPrice": 2106,
+            "maxPrice": 2527
+          },
+          "bajra": {
+            "postedPrice": 1779,
+            "minPrice": 1558,
+            "maxPrice": 1869
+          },
+          "tomato": {
+            "postedPrice": 1754,
+            "minPrice": 1509,
+            "maxPrice": 1811
+          },
+          "onion": {
+            "postedPrice": 1736,
+            "minPrice": 1536,
+            "maxPrice": 1844
+          },
+          "garlic": {
+            "postedPrice": 6649,
+            "minPrice": 5760,
+            "maxPrice": 6912
+          },
+          "ginger": {
+            "postedPrice": 6409,
+            "minPrice": 5668,
+            "maxPrice": 6802
+          },
+          "cauliflower": {
+            "postedPrice": 1338,
+            "minPrice": 1171,
+            "maxPrice": 1405
+          },
+          "brinjal": {
+            "postedPrice": 1250,
+            "minPrice": 1078,
+            "maxPrice": 1294
+          },
+          "carrot": {
+            "postedPrice": 1566,
+            "minPrice": 1361,
+            "maxPrice": 1633
+          },
+          "soybean": {
+            "postedPrice": 4716,
+            "minPrice": 4066,
+            "maxPrice": 4879
+          },
+          "mustard": {
+            "postedPrice": 4704,
+            "minPrice": 4138,
+            "maxPrice": 4966
+          },
+          "turmeric": {
+            "postedPrice": 7956,
+            "minPrice": 6955,
+            "maxPrice": 8346
+          },
+          "pepper": {
+            "postedPrice": 33711,
+            "minPrice": 29364,
+            "maxPrice": 35237
+          },
+          "apple": {
+            "postedPrice": 8398,
+            "minPrice": 7204,
+            "maxPrice": 8644
+          },
+          "banana": {
+            "postedPrice": 1301,
+            "minPrice": 1149,
+            "maxPrice": 1379
+          },
+          "grapes": {
+            "postedPrice": 4423,
+            "minPrice": 3858,
+            "maxPrice": 4630
+          },
+          "tea": {
+            "postedPrice": 17385,
+            "minPrice": 15137,
+            "maxPrice": 18165
+          },
+          "coffee": {
+            "postedPrice": 27899,
+            "minPrice": 24995,
+            "maxPrice": 29994
+          },
+          "coconut": {
+            "postedPrice": 3596,
+            "minPrice": 3219,
+            "maxPrice": 3863
+          },
+          "chickpea": {
+            "postedPrice": 4361,
+            "minPrice": 3917,
+            "maxPrice": 4700
+          },
+          "lentil": {
+            "postedPrice": 6600,
+            "minPrice": 5919,
+            "maxPrice": 7103
+          },
+          "potato": {
+            "postedPrice": 1306,
+            "minPrice": 1148,
+            "maxPrice": 1377
+          },
+          "cabbage": {
+            "postedPrice": 975,
+            "minPrice": 870,
+            "maxPrice": 1044
+          },
+          "sugarcane": {
+            "postedPrice": 398,
+            "minPrice": 347,
+            "maxPrice": 416
+          },
+          "groundnut": {
+            "postedPrice": 6345,
+            "minPrice": 5571,
+            "maxPrice": 6685
+          },
+          "chilli": {
+            "postedPrice": 10908,
+            "minPrice": 9581,
+            "maxPrice": 11498
+          },
+          "mango": {
+            "postedPrice": 3861,
+            "minPrice": 3341,
+            "maxPrice": 4009
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pune",
+    "name": "Pune Gultekdi Market",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.5204,
+    "lng": 73.8567,
+    "rating": 4.9,
+    "contact": "+91 20 256 1234",
+    "timings": "4:00 AM - 2:00 PM",
+    "crops": {
+      "wheat": 2567,
+      "maize": 1703,
+      "tomato": 1409,
+      "onion": 1618,
+      "potato": 1160,
+      "garlic": 5463,
+      "ginger": 5792,
+      "cabbage": 1183,
+      "cauliflower": 1218,
+      "sugarcane": 387,
+      "soybean": 4007,
+      "chilli": 13161,
+      "pepper": 39933,
+      "apple": 6552,
+      "banana": 1375,
+      "mango": 5153,
+      "tea": 16914,
+      "coffee": 29969,
+      "coconut": 2531,
+      "chickpea": 4764
+    },
+    "retailers": [
+      {
+        "id": 4,
+        "name": "National Farm Connect",
+        "buyer": "Rajesh Kumar",
+        "phone": "+91 90000 11111",
+        "rating": 4.9,
+        "volume": "Very High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2647,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2800,
+            "minPrice": 2402,
+            "maxPrice": 2883
+          },
+          "maize": {
+            "postedPrice": 1713,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "jowar": {
+            "postedPrice": 2334,
+            "minPrice": 2004,
+            "maxPrice": 2405
+          },
+          "bajra": {
+            "postedPrice": 2030,
+            "minPrice": 1762,
+            "maxPrice": 2115
+          },
+          "tomato": {
+            "postedPrice": 1449,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "potato": {
+            "postedPrice": 1178,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "garlic": {
+            "postedPrice": 5706,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "cauliflower": {
+            "postedPrice": 1260,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "brinjal": {
+            "postedPrice": 1422,
+            "minPrice": 1264,
+            "maxPrice": 1516
+          },
+          "sugarcane": {
+            "postedPrice": 389,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "soybean": {
+            "postedPrice": 4136,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 6295,
+            "minPrice": 5420,
+            "maxPrice": 6504
+          },
+          "turmeric": {
+            "postedPrice": 5961,
+            "minPrice": 5168,
+            "maxPrice": 6201
+          },
+          "chilli": {
+            "postedPrice": 13368,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "pepper": {
+            "postedPrice": 41269,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6850,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "mango": {
+            "postedPrice": 5206,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          },
+          "grapes": {
+            "postedPrice": 5072,
+            "minPrice": 4559,
+            "maxPrice": 5470
+          },
+          "tea": {
+            "postedPrice": 17583,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "coffee": {
+            "postedPrice": 30728,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2631,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "onion": {
+            "postedPrice": 1685,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "ginger": {
+            "postedPrice": 5987,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cabbage": {
+            "postedPrice": 1241,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "banana": {
+            "postedPrice": 1414,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "chickpea": {
+            "postedPrice": 4802,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Metro Fresh B2B",
+        "buyer": "Suresh Patel",
+        "phone": "+91 98989 87878",
+        "rating": 4.3,
+        "volume": "High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2605,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2897,
+            "minPrice": 2516,
+            "maxPrice": 3019
+          },
+          "maize": {
+            "postedPrice": 1725,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "bajra": {
+            "postedPrice": 2071,
+            "minPrice": 1814,
+            "maxPrice": 2176
+          },
+          "onion": {
+            "postedPrice": 1632,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "potato": {
+            "postedPrice": 1171,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "garlic": {
+            "postedPrice": 5729,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "ginger": {
+            "postedPrice": 5933,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cabbage": {
+            "postedPrice": 1226,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "carrot": {
+            "postedPrice": 1811,
+            "minPrice": 1601,
+            "maxPrice": 1921
+          },
+          "sugarcane": {
+            "postedPrice": 398,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "soybean": {
+            "postedPrice": 4101,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 6020,
+            "minPrice": 5309,
+            "maxPrice": 6371
+          },
+          "turmeric": {
+            "postedPrice": 6194,
+            "minPrice": 5535,
+            "maxPrice": 6642
+          },
+          "chilli": {
+            "postedPrice": 13594,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "pepper": {
+            "postedPrice": 40140,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6638,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "grapes": {
+            "postedPrice": 4416,
+            "minPrice": 3895,
+            "maxPrice": 4674
+          },
+          "coffee": {
+            "postedPrice": 31092,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2629,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "lentil": {
+            "postedPrice": 5908,
+            "minPrice": 5258,
+            "maxPrice": 6309
+          },
+          "tomato": {
+            "postedPrice": 1427,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "cauliflower": {
+            "postedPrice": 1264,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "banana": {
+            "postedPrice": 1375,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "mango": {
+            "postedPrice": 5200,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          },
+          "tea": {
+            "postedPrice": 17743,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "chickpea": {
+            "postedPrice": 4879,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "Reliance Smart Krishi",
+        "buyer": "Amit Shah",
+        "phone": "+91 91111 22222",
+        "rating": 4.7,
+        "volume": "Very High",
+        "cropMargins": {
+          "wheat": {
+            "postedPrice": 2594,
+            "minPrice": 2310,
+            "maxPrice": 2772
+          },
+          "rice": {
+            "postedPrice": 2340,
+            "minPrice": 2078,
+            "maxPrice": 2494
+          },
+          "maize": {
+            "postedPrice": 1704,
+            "minPrice": 1533,
+            "maxPrice": 1839
+          },
+          "jowar": {
+            "postedPrice": 1978,
+            "minPrice": 1753,
+            "maxPrice": 2104
+          },
+          "bajra": {
+            "postedPrice": 1816,
+            "minPrice": 1558,
+            "maxPrice": 1869
+          },
+          "tomato": {
+            "postedPrice": 1416,
+            "minPrice": 1268,
+            "maxPrice": 1522
+          },
+          "onion": {
+            "postedPrice": 1637,
+            "minPrice": 1456,
+            "maxPrice": 1747
+          },
+          "garlic": {
+            "postedPrice": 5621,
+            "minPrice": 4917,
+            "maxPrice": 5900
+          },
+          "ginger": {
+            "postedPrice": 5835,
+            "minPrice": 5213,
+            "maxPrice": 6255
+          },
+          "cauliflower": {
+            "postedPrice": 1252,
+            "minPrice": 1096,
+            "maxPrice": 1315
+          },
+          "brinjal": {
+            "postedPrice": 1356,
+            "minPrice": 1189,
+            "maxPrice": 1427
+          },
+          "carrot": {
+            "postedPrice": 1839,
+            "minPrice": 1631,
+            "maxPrice": 1957
+          },
+          "soybean": {
+            "postedPrice": 4080,
+            "minPrice": 3606,
+            "maxPrice": 4328
+          },
+          "mustard": {
+            "postedPrice": 5520,
+            "minPrice": 4749,
+            "maxPrice": 5699
+          },
+          "turmeric": {
+            "postedPrice": 7706,
+            "minPrice": 6829,
+            "maxPrice": 8195
+          },
+          "pepper": {
+            "postedPrice": 41238,
+            "minPrice": 35940,
+            "maxPrice": 43128
+          },
+          "apple": {
+            "postedPrice": 6835,
+            "minPrice": 5897,
+            "maxPrice": 7076
+          },
+          "banana": {
+            "postedPrice": 1410,
+            "minPrice": 1238,
+            "maxPrice": 1485
+          },
+          "grapes": {
+            "postedPrice": 4546,
+            "minPrice": 3967,
+            "maxPrice": 4761
+          },
+          "tea": {
+            "postedPrice": 17510,
+            "minPrice": 15223,
+            "maxPrice": 18267
+          },
+          "coffee": {
+            "postedPrice": 30397,
+            "minPrice": 26972,
+            "maxPrice": 32367
+          },
+          "coconut": {
+            "postedPrice": 2561,
+            "minPrice": 2278,
+            "maxPrice": 2733
+          },
+          "chickpea": {
+            "postedPrice": 4886,
+            "minPrice": 4288,
+            "maxPrice": 5145
+          },
+          "lentil": {
+            "postedPrice": 5300,
+            "minPrice": 4748,
+            "maxPrice": 5698
+          },
+          "potato": {
+            "postedPrice": 1182,
+            "minPrice": 1044,
+            "maxPrice": 1253
+          },
+          "cabbage": {
+            "postedPrice": 1235,
+            "minPrice": 1065,
+            "maxPrice": 1278
+          },
+          "sugarcane": {
+            "postedPrice": 404,
+            "minPrice": 348,
+            "maxPrice": 418
+          },
+          "chilli": {
+            "postedPrice": 13641,
+            "minPrice": 11845,
+            "maxPrice": 14214
+          },
+          "mango": {
+            "postedPrice": 5333,
+            "minPrice": 4638,
+            "maxPrice": 5565
+          }
+        }
+      }
+    ]
+  }
+]
