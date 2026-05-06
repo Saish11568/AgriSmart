@@ -29,8 +29,8 @@ export function AuthProvider({ children }) {
     return res.data;
   };
 
-  const signup = async (name, email, password) => {
-    const res = await authAPI.signup(name, email, password);
+  const signup = async (name, email, password, role) => {
+    const res = await authAPI.signup(name, email, password, role);
     const { token: newToken, user: userData } = res.data;
     setToken(newToken);
     setUser(userData);

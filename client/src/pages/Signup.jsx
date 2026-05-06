@@ -8,6 +8,7 @@ export default function Signup() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const [role, setRole] = useState('Farmer');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const { signup } = useAuth();
@@ -29,7 +30,7 @@ export default function Signup() {
 
     setLoading(true);
     try {
-      await signup(name, email, password);
+      await signup(name, email, password, role);
       navigate('/dashboard');
     } catch (err) {
       setError(err.response?.data?.error || 'Network error. Please check your connection.');
@@ -44,12 +45,12 @@ export default function Signup() {
         <div className="auth-brand">
           <span className="auth-logo">🌾</span>
           <h1>AgriSmart</h1>
-          <p className="auth-tagline">AI-Powered Farming Intelligence</p>
+          <p className="auth-tagline">Farmer Decision Support & Logistics</p>
         </div>
 
         <form className="auth-form" onSubmit={handleSubmit}>
           <h2>Create Account</h2>
-          <p className="auth-subtitle">Start making data-driven farming decisions</p>
+          <p className="auth-subtitle">Join the smartest agricultural network</p>
 
           {error && (
             <div className="auth-error">
@@ -110,6 +111,32 @@ export default function Signup() {
             />
           </div>
 
+          <div className="form-group">
+            <label className="form-label">I am a...</label>
+            <div className="role-selector" style={{ display: 'flex', gap: '15px', marginTop: '10px' }}>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
+                <input 
+                  type="radio" 
+                  name="role" 
+                  value="Farmer" 
+                  checked={role === 'Farmer'} 
+                  onChange={e => setRole(e.target.value)} 
+                />
+                🧑‍🌾 Farmer
+              </label>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
+                <input 
+                  type="radio" 
+                  name="role" 
+                  value="Driver" 
+                  checked={role === 'Driver'} 
+                  onChange={e => setRole(e.target.value)} 
+                />
+                🚛 Transport Partner
+              </label>
+            </div>
+          </div>
+
           <button type="submit" className="btn btn-primary btn-block btn-lg" disabled={loading}>
             {loading ? '⏳ Creating Account...' : '🌱 Create Account'}
           </button>
@@ -122,13 +149,13 @@ export default function Signup() {
 
       <div className="auth-hero">
         <div className="hero-content">
-          <h2>Intelligent Farming Made Easy</h2>
-          <p>A comprehensive platform for monitoring weather, soil health, crop analytics, and discovering new market opportunities using advanced AI models.</p>
+          <h2>Agricultural Market Intelligence</h2>
+          <p>Access live market prices, coordinate logistics, and make data-driven decisions to maximize your farming profitability.</p>
           <div className="hero-features">
-            <div className="hero-feature"><span>📈</span> Price Prediction</div>
-            <div className="hero-feature"><span>📊</span> Demand Forecast</div>
-            <div className="hero-feature"><span>📍</span> Market Locator</div>
-            <div className="hero-feature"><span>🌱</span> Crop Advisor</div>
+            <div className="hero-feature"><span>📈</span> Market Analytics</div>
+            <div className="hero-feature"><span>🚛</span> Smart Logistics</div>
+            <div className="hero-feature"><span>📍</span> Live Mandi Prices</div>
+            <div className="hero-feature"><span>🌱</span> Knowledge Hub</div>
           </div>
         </div>
       </div>

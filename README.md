@@ -4,184 +4,123 @@
 
 ---
 
-## 🚩 Problem Statement
-
-Indian farmers face heavy losses due to:
-- 📉 **Price crashes** — sudden drops in tomato, onion prices
-- 📊 **Lack of demand prediction** — no way to forecast market needs
-- 🏪 **No real-time market intelligence** — unaware of best-paying mandis
-- 💸 **Middlemen exploitation** — forced to sell at unfair prices
-
-**AgriSmart solves all of this using AI-driven insights.**
+## 📖 Overview
+AgriSmart is a full-stack agricultural intelligence platform designed to empower Indian farmers with data-driven insights. It bridges the gap between raw market data and actionable farming decisions using custom-built prediction models and recommendation engines.
 
 ---
 
-## ✨ Features
+## 🏗️ Technical Architecture
 
-### 🔐 Authentication
-- Secure login/signup with JWT tokens
-- Proper error messages ("Account not found", "Incorrect password")
-- Demo account for quick testing
+### 🛡️ Backend (Node.js & Express)
+The backend serves as the brain of the system, handling data processing, authentication, and logic execution.
+- **Persistence:** Local JSON file-based database (located in `server/data/`) for rapid prototyping and zero-dependency deployment.
+- **Authentication:** JWT (JSON Web Tokens) with `bcryptjs` for secure password hashing.
+- **Core Logic:** Custom JavaScript implementations of statistical models (no heavy ML libraries needed, ensuring high performance on low-resource servers).
 
-### 📈 Module 1: Price Prediction
-- AI-powered crop price forecasting using linear regression
-- Seasonal trend adjustment with monthly weights
-- Interactive line chart showing historical + predicted prices
-- Decision badge: **SELL NOW** (green) or **HOLD** (amber)
-- Confidence score for predictions
-
-### 📊 Module 2: Demand Forecast
-- Market demand analysis with trend detection
-- Top 3 most profitable crops recommendation
-- Bar chart showing monthly demand patterns
-- Smart insights with actionable advice
-
-### 📍 Module 3: Smart Market Locator
-- GPS-powered location detection
-- Haversine formula for accurate distance calculation
-- Best price market highlight
-- Nearest market cards with ratings and timings
-
-### 🌱 Module 4: Crop Recommendation
-- Multi-factor weighted scoring algorithm:
-  - Soil compatibility (30%)
-  - Season match (25%)
-  - Water availability (20%)
-  - Market demand (25%)
-- Ranked results with profitability scores
-- Personalized insights for each crop
-
-### 📦 Module 5: Storage & Selling Advice
-- Current vs predicted price comparison
-- Financial impact calculator (per quintal & for 10 quintals)
-- Storage type recommendations (cold storage, dry warehouse)
-- Cost estimates and shelf life information
-- Personalized insights for each crop
-
-### 🎁 Bonus Features
-- 🎙️ **Voice Assistant** — Mock Hindi/Kannada voice input
-- 🔔 **WhatsApp-style Notifications** — Simulated market alerts
-- 📡 **Offline Mode** — Cached data indicator
+### 🎨 Frontend (React & Vite)
+A modern, responsive SPA (Single Page Application) built for speed and clarity.
+- **State Management:** React Context API for global auth and user state.
+- **Visualizations:** Chart.js for interactive price and demand trends.
+- **Design System:** Custom Vanilla CSS with a focus on accessibility and "premium" aesthetic (Glassmorphism elements, vibrant agricultural color palette).
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 How It Works (The Logic)
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 19 + Vite |
-| Styling | Vanilla CSS (Custom Design System) |
-| Charts | Chart.js + react-chartjs-2 |
-| Routing | React Router DOM |
-| HTTP Client | Axios |
-| Backend | Node.js + Express |
-| Auth | JWT + bcryptjs |
-| Database | JSON file-based (hackathon-ready) |
-| ML/AI | Linear regression + weighted scoring |
+### 📈 1. Price Prediction Algorithm (`server/utils/prediction.js`)
+The system predicts future crop prices using a two-step approach:
+1.  **Linear Regression:** Fits a line ($y = mx + b$) to historical price data to identify the long-term growth or decline trend.
+2.  **Seasonal Adjustment:** Multiplies the base trend by **Seasonal Factors** (e.g., prices typically drop during harvest gluts in Nov/Dec and rise during monsoon disruptions in July/August).
+3.  **Recommendation Engine:** If the predicted price is >10% higher than current, it suggests **HOLD**; if >10% lower, it suggests **SELL NOW**.
+
+### 🌱 2. Crop Recommendation Engine (`server/utils/recommendation.js`)
+Uses a **Weighted Multi-Factor Scoring** system to rank crops for a specific farmer:
+- **Soil Compatibility (30%):** Matches crop requirements with user-input soil type.
+- **Market Demand (25%):** Prioritizes crops with rising demand trends.
+- **Season Match (25%):** Checks if the current month is the ideal sowing time.
+- **Water Availability (20%):** Adjusts based on the farmer's water source (Rain-fed vs. Irrigation).
+
+### 📊 3. Demand Forecasting
+Analyzes recent "mandi" arrival volumes and buyer interest to categorize demand into **High, Medium, or Low**, helping farmers avoid over-saturated markets.
+
+### 📍 4. Smart Market Locator
+Uses the **Haversine Formula** to calculate the great-circle distance between the farmer's GPS coordinates and various market hubs, identifying the "Nearest" and "Best Price" mandis.
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 AGRI/
-├── client/                    # React + Vite frontend
+├── client/                 # React + Vite frontend
 │   ├── src/
-│   │   ├── components/        # Navbar, VoiceAssistant, NotificationPanel
-│   │   ├── pages/             # All 7 pages (Login, Signup, Dashboard, 5 modules)
-│   │   ├── context/           # AuthContext
-│   │   ├── utils/             # API client
-│   │   ├── App.jsx            # Main router
-│   │   └── index.css          # Design system
-│   └── index.html
+│   │   ├── components/     # Reusable UI (Navbar, VoiceAssistant, etc.)
+│   │   ├── pages/          # Feature pages (Dashboard, Prediction, etc.)
+│   │   ├── context/        # AuthContext for login state
+│   │   ├── utils/          # Axios instance & API helpers
+│   │   └── index.css       # Global design system & animations
+│   └── vite.config.js
 │
-├── server/                    # Node.js + Express backend
-│   ├── data/                  # Mock datasets (crops, prices, markets)
-│   ├── routes/                # REST API routes (6 modules)
-│   ├── middleware/            # JWT auth middleware
-│   ├── utils/                 # ML prediction + recommendation engine
-│   └── server.js              # Express server
-│
-└── README.md
+├── server/                 # Node.js + Express backend
+│   ├── data/               # JSON "Database" (crops.json, users.json, etc.)
+│   ├── routes/             # API Endpoints (Auth, Price, Demand, etc.)
+│   ├── middleware/         # JWT Verification & Request Logging
+│   ├── utils/              # The "AI" logic (Regression & Scoring)
+│   └── server.js           # Main entry point
+└── package.json            # Root scripts for concurrent execution
 ```
 
 ---
 
-## 🚀 Setup Instructions
+## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+ installed
-- npm or yarn
+### 1. Prerequisites
+- Node.js 18+
+- A modern web browser
 
-### 1. Clone the repository
+### 2. Installation
+From the root directory:
 ```bash
-git clone <repo-url>
-cd AGRI
+# Install root dependencies
+npm install
+
+# Install backend dependencies
+cd server && npm install
+
+# Install frontend dependencies
+cd ../client && npm install
 ```
 
-### 2. Install & Start Backend
+### 3. Running the App
+Run both client and server simultaneously:
 ```bash
-cd server
-npm install
-npm start
-```
-Backend runs on `http://localhost:5000`
-
-### 3. Install & Start Frontend
-```bash
-cd client
-npm install
 npm run dev
 ```
-Frontend runs on `http://localhost:5173`
-
-### 4. Open the app
-Navigate to `http://localhost:5173` → Sign up or use **Demo Account**
+- **Frontend:** [http://localhost:5173](http://localhost:5173)
+- **Backend:** [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌐 Deployment
+## 📡 API Endpoints
 
-### Frontend (Vercel / Netlify)
-```bash
-cd client
-npm run build
-# Upload dist/ folder
-```
-
-### Backend (Render / Railway)
-- Set environment variable: `JWT_SECRET=your_secret_key`
-- Start command: `node server.js`
-- Set `NODE_ENV=production`
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `POST` | `/api/auth/signup` | Create a new farmer account |
+| `POST` | `/api/auth/login` | Authenticate and get JWT |
+| `GET` | `/api/price/:cropId` | Get historical + predicted prices |
+| `GET` | `/api/recommend/crops` | Get weighted crop recommendations |
+| `GET` | `/api/market/nearby` | Find best mandis based on GPS |
 
 ---
 
-## 📸 Screenshots
-
-> Screenshots/recordings will be added after first run.
-
----
-
-## 🔮 Future Scope
-
-- 🌤️ **Real Weather API** integration (OpenWeatherMap)
-- 📡 **Live Mandi Prices** from government APIs (data.gov.in)
-- 🤖 **Advanced ML** with TensorFlow.js for better predictions
-- 📱 **Mobile App** using React Native
-- 🌐 **Multi-language** support (Hindi, Kannada, Tamil, Telugu)
-- 💬 **WhatsApp Bot** for price alerts via Twilio
-- 🛰️ **Satellite imagery** for crop health monitoring
-- 🏦 **Loan/Insurance** recommendations based on crop choice
+## 🔮 Future Roadmap
+- **Real-time API:** Transition from JSON to `data.gov.in` Live Mandi API.
+- **Weather Integration:** Hyper-local weather alerts using OpenWeatherMap.
+- **Voice UI:** Full multi-lingual voice support for non-tech-savvy farmers.
+- **Offline Sync:** PWA capabilities for use in low-connectivity areas.
 
 ---
 
-## 👥 Team
-
-Built for hackathon demonstration — showcasing the potential of AI in Indian agriculture.
-
----
-
-## 📄 License
-
-MIT License — Free to use and modify.
-
+## 👥 Team & License
+Built for educational and hackathon purposes.
+**License:** MIT

@@ -30,10 +30,10 @@ function saveUsers(users) {
  */
 router.post('/signup', async (req, res) => {
   try {
-    const { name, email, password } = req.body;
+    const { name, email, password, role } = req.body;
 
-    if (!name || !email || !password) {
-      return res.status(400).json({ error: 'All fields are required (name, email, password)' });
+    if (!name || !email || !password || !role) {
+      return res.status(400).json({ error: 'All fields are required (name, email, password, role)' });
     }
 
     if (password.length < 6) {
@@ -53,6 +53,7 @@ router.post('/signup', async (req, res) => {
       name: name.trim(),
       email: email.toLowerCase().trim(),
       password: hashedPassword,
+      role: role,
       createdAt: new Date().toISOString()
     };
 
@@ -60,7 +61,7 @@ router.post('/signup', async (req, res) => {
     saveUsers(users);
 
     const token = jwt.sign(
-      { id: newUser.id, name: newUser.name, email: newUser.email },
+      { id: newUser.id, name: newUser.name, email: newUser.email, role: newUser.role },
       JWT_SECRET,
       { expiresIn: '24h' }
     );
@@ -68,7 +69,7 @@ router.post('/signup', async (req, res) => {
     res.status(201).json({
       message: 'Account created successfully!',
       token,
-      user: { id: newUser.id, name: newUser.name, email: newUser.email }
+      user: { id: newUser.id, name: newUser.name, email: newUser.email, role: newUser.role }
     });
   } catch (err) {
     console.error('Signup error:', err);
@@ -101,7 +102,7 @@ router.post('/login', async (req, res) => {
     }
 
     const token = jwt.sign(
-      { id: user.id, name: user.name, email: user.email },
+      { id: user.id, name: user.name, email: user.email, role: user.role },
       JWT_SECRET,
       { expiresIn: '24h' }
     );
@@ -109,7 +110,7 @@ router.post('/login', async (req, res) => {
     res.json({
       message: 'Login successful!',
       token,
-      user: { id: user.id, name: user.name, email: user.email }
+      user: { id: user.id, name: user.name, email: user.email, role: user.role }
     });
   } catch (err) {
     console.error('Login error:', err);
